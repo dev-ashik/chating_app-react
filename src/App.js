@@ -43,6 +43,3 @@ function App() {
 }
 
 export default App;
-
-// link: https://www.youtube.com/watch?v=k4mjF4sPITE&t=222s
-// Time: 2:01:55
