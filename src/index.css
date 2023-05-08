@@ -1,0 +1,43 @@
+#root {
+    --page-bg: #AEB6BF;
+    --second-page-bg: #D6D6D6;
+    --sidebar-nav-bg: #818e9c;
+    --text-title: #0A2A5C;
+    --text-p: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* For WebKit browsers (e.g. Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ebeaea;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--sidebar-nav-bg);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #686868;
+  
+  
+  /* For Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #888 #F1F1F1;
+  
+  /* For Internet Explorer and Edge */
+  -ms-overflow-style: none;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #F1F1F1;
+  }
+  
